@@ -2,10 +2,6 @@
   <img src="assets/grok-bot-banner.png" alt="Grok Bot" width="800">
 </p>
 
-<p align="center">
-  <img src="assets/awesome-grok-bot-banner.png" alt="Awesome Grok Bot" width="800">
-</p>
-
 # Awesome Grok Bot
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
