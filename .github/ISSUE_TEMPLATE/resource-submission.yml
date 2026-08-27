@@ -1,0 +1,121 @@
+name: Resource Submission
+description: Recommend a new resource for Awesome Grok Bot
+title: "[Resource] "
+labels: ["resource-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for recommending a resource! Please fill out the information below.
+        
+        **Note:** All additions are reviewed and added by maintainers. Do not open a PR to add resources directly.
+
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource Name
+      description: The name of the resource or project
+      placeholder: "e.g., awesome-skill-pack"
+    validations:
+      required: true
+
+  - type: input
+    id: resource-url
+    attributes:
+      label: Resource URL
+      description: The URL to the resource (GitHub repo, documentation site, etc.)
+      placeholder: "https://github.com/username/project"
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      description: GitHub username or name of the author/maintainer
+      placeholder: "e.g., @username or First Last"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which section does this resource fit into?
+      options:
+        - Official Resources
+        - Skills
+        - Plugins & Marketplace
+        - MCP Servers & Connectors
+        - Guides & Documentation
+        - Security
+        - Related Projects
+        - Other (explain in description)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: license
+    attributes:
+      label: License
+      description: The open-source license of the resource
+      options:
+        - MIT
+        - Apache-2.0
+        - GPL-3.0
+        - BSD-3-Clause
+        - ISC
+        - CC-BY-4.0
+        - Other (specify in description)
+        - Unknown/None
+    validations:
+      required: true
+
+  - type: dropdown
+    id: maturity
+    attributes:
+      label: Suggested Maturity Tag
+      description: What maturity level do you think this resource has?
+      options:
+        - production (stable, documented, actively maintained)
+        - beta (works but evolving, some rough edges)
+        - experimental (proof of concept, early-stage)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Brief description of what this resource does
+      placeholder: "A concise description of the resource and its capabilities..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: why-awesome
+    attributes:
+      label: Why is this awesome?
+      description: What makes this resource worth including? Why does it matter for current Grok Bot users?
+      placeholder: "Explain what makes this resource valuable and unique..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission Checklist
+      description: Please confirm the following
+      options:
+        - label: The resource is directly related to Grok Bot or the autonomous agent ecosystem
+          required: true
+        - label: The resource has a clear README that explains what it does and how to use it
+          required: true
+        - label: The resource is functional (or clearly labeled as experimental/WIP)
+          required: true
+        - label: I've checked the list and this is not a duplicate
+          required: true
+        - label: The resource is open source with publicly available source code
+          required: true
+        - label: I am not the author (or I've disclosed that I am)
+          required: false
