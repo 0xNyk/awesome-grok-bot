@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="Grok Bot directory mark">
+  <rect width="256" height="256" rx="40" fill="#0a0a0a"/>
+  <rect x="0" y="0" width="12" height="256" fill="#C5F23F"/>
+  <!-- G-shaped node: directory, not a chatbot face -->
+  <g fill="none" stroke="#C5F23F" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M188 86 A62 62 0 1 0 188 170"/>
+    <path d="M188 170 H140"/>
+    <circle cx="140" cy="128" r="8" fill="#C5F23F" stroke="none"/>
+    <circle cx="188" cy="86" r="6" fill="#C5F23F" stroke="none"/>
+    <circle cx="188" cy="170" r="6" fill="#C5F23F" stroke="none"/>
+  </g>
+</svg>
