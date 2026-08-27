@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="assets/grok-bot-banner.png" alt="Grok Bot" width="800">
+</p>
+
+<p align="center">
   <img src="assets/awesome-grok-bot-banner.png" alt="Awesome Grok Bot" width="800">
 </p>
 
@@ -7,6 +11,12 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Validate](https://github.com/0xNyk/awesome-grok-bot/actions/workflows/validate.yml/badge.svg)](https://github.com/0xNyk/awesome-grok-bot/actions/workflows/validate.yml)
+
+<p align="center">
+  <a href="BRAND.md">Brand kit</a>
+  ·
+  <a href="assets/github-social.jpeg">Social preview</a>
+</p>
 
 > Curated skills, tools, integrations, and resources for [Grok Bot](https://docs.x.ai/grok-bot/overview), the autonomous AI agent from [xAI](https://x.ai).
 
@@ -33,6 +43,10 @@ Then use the full list. Every entry has a maturity tag:
 Tags are editorial snapshots based on documentation, setup evidence, maintenance, and adoption signals. Re-check the linked project before depending on it.
 
 ## Check the trust boundary
+
+<p align="center">
+  <img src="assets/trust-boundary.jpeg" alt="Listing is not a security endorsement" width="800">
+</p>
 
 An ecosystem listing is a discovery aid, not a security endorsement. Before enabling a community skill, plugin, MCP server, or unattended automation, verify who can trigger it, which tools it receives, where commands execute, what credentials it can read, and how you can stop it. Prefer the smallest toolset and an isolated backend for untrusted work.
 
