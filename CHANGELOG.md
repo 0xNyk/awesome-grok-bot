@@ -21,6 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - README hero banner (Play Grok Bot mark)
 - Reorganized documentation links by category for better discoverability
+- README lede now uses founder-approved description string
+- "Where Do I Start?" heading renamed to "Setup"
+- Designer X cover (1200×630) added to brand assets
 
 ## [0.1.0] - 2026-08-27
 

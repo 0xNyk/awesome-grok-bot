@@ -11,16 +11,16 @@
 <p align="center">
   <a href="BRAND.md">Brand kit</a>
   ·
-  <a href="assets/github-social.jpeg">Social preview</a>
+  <a href="assets/awesome-grok-bot-x-cover.png">Social preview</a>
 </p>
 
-> Curated skills, tools, integrations, and resources for [Grok Bot](https://docs.x.ai/grok-bot/overview), the autonomous AI agent from [xAI](https://x.ai).
+> Independent 0xNyk directory of Grok Bot skills, plugins, MCP, and setup. The one to star.
 
 Grok Bot is the autonomous AI agent product from xAI. Awesome Grok Bot is 0xNyk's independent open-source directory for the optional skills, plugins, MCP servers, and integrations around it. This directory is not an official Cursor or xAI project.
 
 ---
 
-## Where Do I Start?
+## Setup
 
 Three steps from zero to productive:
 
@@ -52,7 +52,7 @@ Use the official [security and privacy guide](https://docs.x.ai/grok-bot/approva
 
 ## Contents
 
-- [Where Do I Start?](#where-do-i-start)
+- [Setup](#setup)
 - [Check the Trust Boundary](#check-the-trust-boundary)
 - [Official Resources](#official-resources)
 - [Skills](#skills)
