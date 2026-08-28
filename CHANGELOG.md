@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - This CHANGELOG file
 
 ### Changed
+- README hero banner (Play Grok Bot mark)
 - Reorganized documentation links by category for better discoverability
 
 ## [0.1.0] - 2026-08-27
