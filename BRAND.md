@@ -31,6 +31,7 @@ Do not use Hermes amber/gold as the lead. Do not use purple SaaS gradients.
 |---|---|---|
 | `grok-bot-banner.png` | 1600×280 | README hero |
 | `github-social.jpeg` | 1280×640 | GitHub social preview / OG |
+| `awesome-grok-bot-x-cover.png` | 1200×630 | X/social cover |
 | `logo-mark.svg` | 256×256 | Avatar-style mark, badges |
 | `trust-boundary.jpeg` | 1536×1024 | README supporting graphic |
 
