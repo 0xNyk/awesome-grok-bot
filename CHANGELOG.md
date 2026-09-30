@@ -37,5 +37,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - GitHub Actions validation workflow (SHA-pinned checkout)
 - Core house files and documentation structure
 
-[Unreleased]: https://github.com/0xNyk/awesome-grok-bot/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/0xNyk/awesome-grok-bot/releases/tag/v0.1.0
+[Unreleased]: https://github.com/0xNyk/awesome-grok-bot/compare/7bebb6b18723441f28f87675db5fea748beac41d...HEAD
+[0.1.0]: https://github.com/0xNyk/awesome-grok-bot/commit/7bebb6b18723441f28f87675db5fea748beac41d
